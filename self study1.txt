@@ -1,0 +1,44 @@
+package BasicsOfJava;
+
+public class First {
+
+	public static void main(String[] args) {
+				
+		int sub1 = 76;
+		int sub2 = 76;
+		int sub3 = 76;
+		int sub4 = 76;
+		int sub5 = 76;
+		int total = (sub1+sub2+sub3+sub4+sub5);
+		System.out.println("total : "+total);
+		
+		float p = total/5;
+		System.out.println("Percentage is:" +p);
+		
+		
+		//Area of rectangle
+		int length = 5;
+		int breadth = 7;
+		
+		System.out.println("Area of rectangle is :"+length*breadth);
+		
+		//Area of triangle
+		float base = 10f;
+		float height = 5f;
+		float area = ((1/2)*(base*height));
+		System.out.println("Area of triangle is: "+area);
+		
+		//Area of circle
+		
+		float pi = 3.14f;
+		double radius = 5.0;
+		System.out.println("area of circle: "+(pi*radius*radius));
+		
+		//Area of square
+		
+		int side = 5;
+		System.out.println("area of square is: "+(side*side));
+
+	}
+
+}

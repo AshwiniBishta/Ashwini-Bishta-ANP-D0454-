@@ -1,0 +1,54 @@
+package com.Labs;
+
+import java.util.Scanner;
+
+public class Lab3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+
+
+		
+		                           //Lab 3.1 primitive datatypes
+		boolean bool = false;
+		byte b = 43;
+		short s = 5;
+		int i = 95;
+		long l = 723681291;
+		float f = 5.5f;
+		double d = 23.445344;
+		char c = 'A';
+		
+		System.out.println("Boolean = "+bool);
+		System.out.println("Byte = "+b);
+		System.out.println("Short = "+s);
+		System.out.println("int = "+i);
+		System.out.println("long = "+l);
+		System.out.println("float = "+f);
+		System.out.println("double = "+d);
+		System.out.println("char = "+c);
+		
+		                      
+
+
+                                            //Lab 3.2 display total marks and percentage of student marks
+		
+		System.out.println("Enter marks of subject 1");
+		int sub1 = sc.nextInt();
+		System.out.println("Enter marks of subject 2");
+		int sub2 = sc.nextInt();
+		System.out.println("Enter marks of subject 3");
+		int sub3 = sc.nextInt();
+		System.out.println("Enter marks of subject 4");
+		int sub4 = sc.nextInt();
+		System.out.println("Enter marks of subject 5");
+		int sub5 = sc.nextInt();
+		
+		int total = (sub1+sub2+sub3+sub4+sub5);
+		System.out.println("total : "+total);
+		
+		float p = total/5;
+		System.out.println("Percentage is:" +p);
+	}
+}

@@ -1,0 +1,47 @@
+package com.Labs;
+
+public class Lab4 {
+	
+
+
+	//Lab 4.2 Demonstrate use of static, instance and local variable
+	
+	static float pi = 3.14f;    //static variable
+	
+	float area;                 //instance variable
+	
+	void calculate() {
+		
+		float radius = 5.3f;    //local variable
+		
+		area = pi * radius * radius;
+		System.out.println("area of circle "+area);
+	}
+
+
+
+
+	public static void main(String[] args) {
+
+
+		
+		//Lab 4.1 demonstrate type casting
+		
+		int i = 25;    //integer variable
+		System.out.println("int i = "+i);
+		
+		long l = i;     //converts int to long automatically(implicit type casting)
+		System.out.println("long l = "+l);
+		
+		int num = (int)l; //converts long to int manually (explicit type casting) 
+		System.out.println("int num = "+num);
+		
+		
+		
+		//Lab 4.2 Demonstrate use of static, instance and local variable
+		
+		Lab4 obj = new Lab4();
+		obj.calculate();
+	
+	}
+}
